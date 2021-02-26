@@ -2,45 +2,47 @@ class Main
  {
   public static void main(String[] args) 
   {
-    MonetaryCoin Dollar = new MonetaryCoin (1);
-    System.out.println (Dollar.toString());
-    System.out.println (Dollar.getValue());
-    System.out.println("-----------------");
+    System.out.println ("Andy Sanchez, PP 7.0");
 
-    MonetaryCoin Five = new MonetaryCoin (5);
-    System.out.println (Five.toString());
-    System.out.println (Five.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin Dollar = new MonetaryCoin (1);//this is the declaration
+    System.out.println ("You flipped: "+Dollar.toString());//calls the toString
+    System.out.println ("Coin Value: $"+Dollar.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin Ten = new MonetaryCoin (10);
-    System.out.println (Ten.toString());
-    System.out.println (Ten.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin Five = new MonetaryCoin (5);//this is the declaration
+    System.out.println ("You flipped: "+Five.toString());//calls the toString
+    System.out.println ("Coin Value: $"+Five.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin Hundread = new MonetaryCoin (100);
-    System.out.println (Hundread.toString());
-    System.out.println (Hundread.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin Ten = new MonetaryCoin (10);//this is the declaration
+    System.out.println ("You flipped: "+Ten.toString());//calls the toString
+    System.out.println ("Coin Value: $"+Ten.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin fivecent = new MonetaryCoin (.05);
-    System.out.println (fivecent.toString());
-    System.out.println (fivecent.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin Hundread = new MonetaryCoin (100);//this is the declaration
+    System.out.println ("You flipped: "+Hundread.toString());//calls the toString
+    System.out.println ("Coin Value: $"+Hundread.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin onecent = new MonetaryCoin (.01);
-    System.out.println (onecent.toString());
-    System.out.println (onecent.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin fivecent = new MonetaryCoin (.05);//this is the declaration
+    System.out.println ("You flipped: "+fivecent.toString());//calls the toString
+    System.out.println ("Coin Value: $"+fivecent.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin tencent = new MonetaryCoin (.10);
-    System.out.println (tencent.toString());
-    System.out.println (tencent.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin onecent = new MonetaryCoin (.01);//this is the declaration
+    System.out.println ("You flipped: "+onecent.toString());//calls the toString
+    System.out.println ("Coin Value: $"+onecent.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
-    MonetaryCoin quacent = new MonetaryCoin (.25);
-    System.out.println (quacent.toString());
-    System.out.println (quacent.getValue());
-    System.out.println("-----------------");
+    MonetaryCoin tencent = new MonetaryCoin (.10);//this is the declaration
+    System.out.println ("You flipped: "+tencent.toString());//calls the toString
+    System.out.println ("Coin Value: $"+tencent.getValue());//calls to get value
+    System.out.println("-----------------");//for space
+
+    MonetaryCoin quacent = new MonetaryCoin (.25);//this is the declaration
+    System.out.println ("You flipped: "+quacent.toString());//calls the toString
+    System.out.println ("Coin Value: $"+quacent.getValue());//calls to get value
+    System.out.println("-----------------");//for space
 
   }
 }
